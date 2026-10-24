@@ -1,0 +1,50 @@
+generated: '2026-10-24'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 3
+  own: 3
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - support
+  - website
+hosts:
+- host: api.magentic.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: magentic.com
+  role: api
+  relation: own
+- host: help.magentic.com
+  found_by:
+  - probed
+  - site-links
+  - docs-index
+  - contract-discovery
+  - well-known
+  types: []
+  serves:
+  - docs
+  registrable_domain: magentic.com
+  role: support
+  relation: own
+- host: www.magentic.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Security
+  - Website
+  - Support
+  - PrivacyPolicy
+  serves: []
+  registrable_domain: magentic.com
+  role: website
+  relation: own

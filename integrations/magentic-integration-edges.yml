@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: none
+source:
+- https://zapier.com/apps/magentic/integrations
+- https://n8n.io/integrations/magentic/
+- https://composio.dev/toolkits/magentic
+- https://monid.ai/tools/magentic
+checked:
+- https://composio.dev/toolkits/magentic
+- https://monid.ai/tools/magentic
+- https://n8n.io/integrations/magentic/
+- https://zapier.com/apps/magentic/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
